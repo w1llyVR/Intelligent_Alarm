@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Despertador Inteligente</string>
+
+    <string name="accessibility_service_description">
+        Detecta actividad general para confirmar que el usuario está despierto.
+        No registra textos, contraseñas ni contenido de otras aplicaciones.
+    </string>
+
+    <string name="notification_channel_name">Alarma inteligente</string>
+
+    <string name="notification_channel_description">
+        Notificación permanente mientras la alarma está activa.
+    </string>
+</resources>

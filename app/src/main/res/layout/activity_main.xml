@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Despertador Inteligente"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Estado: pendiente de configuración"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPermisoUso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="1. Activar acceso de uso" />
+
+        <Button
+            android:id="@+id/btnAccesibilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="2. Activar detección de actividad" />
+
+        <Button
+            android:id="@+id/btnPrueba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Prueba: elegir hora de alarma" />
+
+        <Button
+            android:id="@+id/btnProgramar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="3. Programar alarma de lunes a viernes" />
+
+        <Button
+            android:id="@+id/btnDesactivarManana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Desactivar solo mañana" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="La alarma se activa desde las 6:00 AM. Si no detecta actividad antes de las 6:20 AM, inicia el ciclo progresivo de sonido."
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

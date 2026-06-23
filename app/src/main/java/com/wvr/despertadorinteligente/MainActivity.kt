@@ -91,6 +91,7 @@ class MainActivity : AppCompatActivity() {
         ).show()
     }
 
+
     private fun actualizarEstado() {
         val accessibilityManager =
             getSystemService(ACCESSIBILITY_SERVICE) as AccessibilityManager
